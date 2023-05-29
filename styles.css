@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  max-width: 211vh;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  /* 1rem = 10px */
+  margin-top: 0;
+  padding: 0;
+}
+
+header {
+  background-color: whitesmoke;
+  width: 211vh;
+  display: grid;
+  grid-gap: 0;
+  grid-template-areas: "Piero navbar";
+}
+
+header .Piero {
+  width: 100%;
+  align-items: center;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  background-color: whitesmoke;
+  grid-area: Piero;
+  height: 15vh;
+}
+header .navbar {
+  padding-right: 5rem;
+  background-color: whitesmoke;
+  grid-area: navbar;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+header .navbar ul {
+  display: flex;
+  list-style: none;
+  /* list-style-type: none;*/
+  gap: 5rem;
+}
+header .navbar ul a {
+  color: black;
+  text-decoration: none;
+}
+
+main .uno {
+  text-align: center;
+}
+main .dos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+main .dos img {
+  border-radius: 3rem;
+}
+main .tres {
+  display: flex;
+  justify-content: start;
+  padding-left: 40vh;
+}
+main .tres .storyEmotion {
+  width: 40vh;
+  text-align: justify;
+}
+main .tres .storyEmotion input {
+  width: 30vh;
+  height: 5vh;
+  border-radius: 1rem;
+}
+main .tres .storyEmotion button {
+  background-color: lightblue;
+  border: 0px solid white;
+  height: 5vh;
+  border-radius: 1rem;
+}
+main .we {
+  margin-left: 30vh;
+}
+main .cuatro {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+}
+main .cuatro button {
+  background-color: lightblue;
+  border: 0px solid white;
+  width: 10vh;
+  border-radius: 1rem;
+}
+main .cuatro .cuatroUno {
+  width: 40vh;
+  height: 45vh;
+  border: 0px solid black;
+  border-radius: 1rem;
+  background-color: lightgray;
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+}
+main .cuatro .cuatroDos {
+  width: 40vh;
+  height: 45vh;
+  border: 0px solid black;
+  border-radius: 1rem;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+main .cuatro .cuatroTres {
+  width: 40vh;
+  height: 45vh;
+  border: 0px solid black;
+  border-radius: 1rem;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+main .good {
+  margin-left: 30vh;
+}
+main .cinco {
+  display: flex;
+  flex-direction: column;
+  padding-left: 23rem;
+}
+main .cinco img {
+  border-radius: 2rem;
+}
+main .cincoUno {
+  display: flex;
+  gap: 10rem;
+}
+main .cinco .izquierda {
+  margin-top: 20rem;
+}
+main .cincoDos {
+  display: flex;
+  gap: 10rem;
+}
+main .seis {
+  margin-top: 10rem;
+  display: flex;
+  gap: 20rem;
+}
+main .seis .we {
+  width: 30rem;
+}
+main .siete {
+  margin-left: 10rem;
+}
+main .siete .fast {
+  text-align: justify;
+}
+main .CarlosTran {
+  display: flex;
+  gap: 3rem;
+}
+main .CarlosTran img {
+  height: 8rem;
+  border-radius: 2rem;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+footer .columns {
+  display: flex;
+  flex-direction: row;
+  gap: 25rem;
+  justify-content: center;
+  padding-top: 3rem;
+  height: 50vh;
+}
+footer .columns img {
+  height: 3rem;
+}
+footer .link {
+  text-align: center;
+}
+footer input {
+  width: 30vh;
+  height: 5vh;
+  border-radius: 1rem;
+}
+footer button {
+  background-color: lightblue;
+  border: 0px solid white;
+  height: 5vh;
+  border-radius: 1rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

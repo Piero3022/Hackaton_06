@@ -1,0 +1,85 @@
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\¿Por qué usar un pre procesador?
+
+Los preprocesadores CSS son herramientas que extienden las capacidades de los estilos CSS convencionales al agregar características adicionales y mejorar la eficiencia en la escritura y mantenimiento de código. 
+Algunas de las razones por las que se utiliza un preprocesador CSS son las siguientes:
+
+	1.Variables: Los preprocesadores CSS permiten definir variables, lo que facilita la reutilización de valores comunes en todo el código CSS. Esto hace que sea más fácil mantener la consistencia en el diseño, 
+			ya que los cambios en las variables se reflejan automáticamente en todas las instancias en las que se utilizan.
+
+	2.Anidamiento: Los preprocesadores permiten anidar selectores y reglas CSS dentro de otros selectores y reglas. Esto evita la repetición innecesaria de código y ayuda a mantener una estructura más clara y legible.
+
+	3.Mixins: Los mixins permiten definir estilos o bloques de código reutilizables y luego incluirlos en diferentes partes del código CSS. Esto facilita la aplicación de estilos consistentes y reduce la duplicación de código.
+
+	4.Importación de archivos: Los preprocesadores permiten dividir el código CSS en varios archivos y luego importarlos según sea necesario. Esto ayuda a organizar y modularizar el código, lo que facilita su mantenimiento 
+			y reutilización.
+
+	5.Operaciones matemáticas: Algunos preprocesadores CSS permiten realizar operaciones matemáticas en los valores de las propiedades CSS, lo que puede ser útil para el cálculo de tamaños, márgenes, colores, entre otros.
+
+	6.Comentarios mejorados: Los preprocesadores ofrecen opciones para comentarios más avanzados, lo que facilita la documentación y la comprensión del código por parte de otros desarrolladores.
+
+	7.Soporte de mixins y funciones definidas por el usuario: Los preprocesadores permiten definir mixins y funciones personalizadas, lo que brinda una flexibilidad adicional para extender las capacidades de CSS.
+
+En resumen, el uso de un preprocesador CSS ofrece ventajas significativas en términos de modularidad, reutilización de código, mantenimiento y productividad al escribir estilos CSS más avanzados y eficientes.
+
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ ¿Cuáles son los principales pre procesadores?
+
+Existen varios preprocesadores CSS populares, cada uno con sus propias características y sintaxis. A continuación, se presentan algunos de los principales preprocesadores CSS:
+
+	1.Sass (Syntactically Awesome Stylesheets): Sass es uno de los preprocesadores CSS más utilizados y ampliamente adoptados. Ofrece una sintaxis clara y concisa con características como variables, 
+			anidamiento, mixins, importación de archivos, funciones y más. Sass tiene dos variantes: Sass original, que utiliza una sintaxis basada en indentación, y SCSS, que utiliza una sintaxis similar a 
+			CSS con llaves y punto y coma.
+
+	2.Less: Less es otro preprocesador CSS popular y fácil de aprender. Ofrece características similares a Sass, como variables, anidamiento, mixins y funciones. Less utiliza una sintaxis similar a CSS, pero agrega 
+			funcionalidades adicionales.
+
+	3.Stylus: Stylus es un preprocesador CSS con una sintaxis muy flexible y minimalista. Permite un código más conciso al omitir el uso de llaves y punto y coma. Stylus también admite variables, anidamiento, 
+			mixins y funciones.
+
+Estos son solo algunos de los preprocesadores CSS más conocidos y utilizados en la actualidad. Cada uno tiene su propia comunidad de desarrolladores y documentación detallada, por lo que vale la pena 
+			investigar y probar aquel que se ajuste mejor a tus necesidades y preferencias de desarrollo.
+
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ ¿Cuáles son los beneficios?
+
+
+Los principales beneficios de utilizar preprocesadores CSS son:
+
+	1.Eficiencia en la escritura de código al proporcionar características como variables, anidamiento y mixins.
+
+	2.Mayor mantenibilidad gracias a la modularidad y organización del código.
+
+	3.Mejor legibilidad y estructura del código CSS.
+
+	4.Posibilidad de personalización y extensibilidad mediante la creación de mixins y funciones personalizadas.
+
+	5.Compatibilidad con versiones anteriores de CSS estándar.
+
+	6.Comunidad y soporte activo que brindan recursos y herramientas adicionales.
+
+En conjunto, estos beneficios ayudan a agilizar el desarrollo, mejorar la calidad del código y facilitar su mantenimiento a largo plazo.
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
